@@ -1,4 +1,4 @@
-from pyautogui import moveTo, click, press, hotkey
+from pyautogui import moveTo, click, press, hotkey, keyDown, keyUp
 from time import sleep
 from helpers._constants import COMMANDS_AUDIO_MAPPING
 
@@ -20,8 +20,10 @@ def right_powerful():
 
 
 def block():
-    press("l")
-
+    keyDown("l")
+    sleep(2)
+    keyUp("l")
+    
 
 def special_move():
     press("o")
@@ -36,7 +38,9 @@ def dash_forward():
 
 
 def advance():
-    press("d")
+    keyDown("d")
+    sleep(1)
+    keyUp("d")
 
 
 def dodge():
@@ -55,12 +59,47 @@ def double_upper_cut():
     hotkey("s", "i")
 
 
+def special_move_block():
+    press("u", 10, 0.5)
+
+
 def engage():
+    left_hook()
+    sleep(0.3)
+    right_jab()
+    sleep(0.3)
+    left_jab()
+    sleep(0.3)
+    right_powerful()
+
+
+def aggressive():
     advance()
     left_hook()
+    sleep(0.3)
     right_jab()
+    dodge()
+    sleep(0.3)
     left_jab()
+    sleep(0.3)
     right_powerful()
+    advance()
+    left_hook()
+    dodge()
+    sleep(0.3)
+    right_jab()
+    sleep(0.3)
+    left_jab()
+    sleep(0.3)
+    right_powerful()
+
+
+def times_20():
+    for _ in range(20):
+        press("j")
+        sleep(0.1)
+        press("i")
+        hotkey("s", "j")
 
 
 def clean_text(text: str):

@@ -27,7 +27,7 @@ Dash Backword - a + a
 Dodge Right - s + s
 Dodge Left - w + w
 Jab - j
-Cross - d + j
+Cross (straight) - d + j
 Right Hook - w + j
 Left lower hook - a + j
 Right lower cut - s + j
@@ -42,6 +42,29 @@ Center tap - u
 """
 
 COMMANDS_AUDIO_MAPPING = {
+    "dodge": "dodge",
+    "dodge right": "dodge",
+    "dodge left": "dodge_left",
+    "left hook": "left_hook",
+    "advance": "advance",
+    "dash back": "dash_back",
+    "dash forward": "dash_forward",
+    "dash": "dash_forward",
+    "arms up": "block",
+    "special block": "special_move_block",
+    "special move": "special_move",
+    "special": "special_move",
+    "thumbs up": "block",
+    "left hook": "left_hook",
+    "engage": "engage",
+    "double upper cut": "double_upper_cut",
+    "right hook": "right_powerful",
+    "step back": "step_back",
+    "times twenty": "times_20",
+    "block": "block",
+    "rock": "block",
+    "lock": "block",
+    "combo": "aggressive",
     "left": "left_jab",
     "left jab": "left_jab",
     "left jam": "left_jab",
@@ -51,22 +74,4 @@ COMMANDS_AUDIO_MAPPING = {
     "right job": "right_jab",
     "right jam": "right_jab",
     "right": "right_jab",
-    "left hook": "left_hook",
-    "advance": "advance",
-    "dodge": "dodge",
-    "dodge right": "dodge",
-    "dodge left": "dodge_left",
-    "dash back": "dash_back",
-    "dash forward": "dash_forward",
-    "dash": "dash_forward",
-    "arms up": "block",
-    "block": "block",
-    "special move": "special_move",
-    "special": "special_move",
-    "thumbs up": "block",
-    "left hook": "left_hook",
-    "engage": "engage",
-    "double upper cut": "double_upper_cut",
-    "right hook": "right_powerful",
-    "step back": "step_back",
 }
