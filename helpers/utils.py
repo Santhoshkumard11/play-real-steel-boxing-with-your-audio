@@ -1,4 +1,4 @@
-from pyautogui import moveTo, click, press, hotkey, keyDown, keyUp
+from pyautogui import press, hotkey, keyDown, keyUp
 from time import sleep
 from helpers._constants import COMMANDS_AUDIO_MAPPING
 
@@ -23,7 +23,7 @@ def block():
     keyDown("l")
     sleep(2)
     keyUp("l")
-    
+
 
 def special_move():
     press("o")
@@ -103,6 +103,14 @@ def times_20():
 
 
 def clean_text(text: str):
+    """Scan through the list of phrases and pick the best match
+
+    Args:
+        text (str): text from deepgram
+
+    Returns:
+        str: method name to the corresponding command
+    """
 
     for action, method_name in COMMANDS_AUDIO_MAPPING.items():
 

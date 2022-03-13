@@ -27,6 +27,7 @@ logger.addHandler(stream_handler)
 app = Flask("aioflask")
 
 dg_client = Deepgram(os.getenv("DEEPGRAM_API_KEY"))
+logging.info("ws deepgram client created successfully")
 
 
 async def process_audio(fast_socket: web.WebSocketResponse):
@@ -61,7 +62,6 @@ async def connect_to_deepgram(
         socket.registerHandler(
             socket.event.TRANSCRIPT_RECEIVED, transcript_received_handler
         )
-        logging.info("ws deepgram client connected successfully")
 
         return socket
     except Exception as e:
