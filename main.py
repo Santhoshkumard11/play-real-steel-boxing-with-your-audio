@@ -7,6 +7,22 @@ from aiohttp_wsgi import WSGIHandler
 from helpers._constants import KEYWORDS
 from typing import Dict, Callable
 from helpers.actions import make_move
+import logging
+import sys
+
+# Initializing the logger
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+formatter = logging.Formatter(
+    "%(asctime)s | %(levelname)s | %(message)s", "%m-%d-%Y %H:%M:%S"
+)
+
+stream_handler = logging.StreamHandler(sys.stdout)
+stream_handler.setLevel(logging.INFO)
+stream_handler.setFormatter(formatter)
+
+logger.addHandler(stream_handler)
+
 
 app = Flask("aioflask")
 
@@ -19,6 +35,7 @@ async def process_audio(fast_socket: web.WebSocketResponse):
             transcript = data["channel"]["alternatives"][0]["transcript"]
 
             if transcript:
+                # this is the place where we initiate the commands
                 make_move(transcript)
                 await fast_socket.send_str(transcript)
 
@@ -44,6 +61,7 @@ async def connect_to_deepgram(
         socket.registerHandler(
             socket.event.TRANSCRIPT_RECEIVED, transcript_received_handler
         )
+        logging.info("ws deepgram client connected successfully")
 
         return socket
     except Exception as e:
@@ -72,4 +90,5 @@ if __name__ == "__main__":
     wsgi = WSGIHandler(app)
     aio_app.router.add_route("*", "/{path_info: *}", wsgi.handle_request)
     aio_app.router.add_route("GET", "/listen", socket)
+    logging.info("Started the server. Listining....")
     web.run_app(aio_app, port=5555)
