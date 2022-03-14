@@ -1,5 +1,5 @@
 from typing import Callable
-from helpers.utils import *
+from helpers.utils import clean_text
 import logging
 
 
