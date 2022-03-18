@@ -15,7 +15,7 @@ I was wondering if I could do the same with Deepgram's real-time speech to text 
 </a>
 
 
-![Game play gif](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/f4j87bngddl9jaw0cxjd.gif)
+![Game play gif](https://github.com/Santhoshkumard11/play-real-steel-boxing-with-your-audio/blob/4e8cb28f2b181ed5e808009d60ee85ea73a583c2/images/play_real_steel_boxing_with_voice_gif.gif)
 
 ## How to setup locally
 
@@ -30,11 +30,12 @@ Install all the dependencies
 
 
 ## Game on fellows!!
-![Bring it on!!](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/c8m8zk1yfctrofjptqni.gif)
+![Bring it on!!](https://github.com/Santhoshkumard11/play-real-steel-boxing-with-your-audio/blob/4e8cb28f2b181ed5e808009d60ee85ea73a583c2/images/bring_it_on.gif)
 
 
 ## Architecture Diagram
-[Architecture Diagram]()
+![Architecture Diagram](https://github.com/Santhoshkumard11/play-real-steel-boxing-with-your-audio/blob/4e8cb28f2b181ed5e808009d60ee85ea73a583c2/images/architecture-diagram-full.png)
+
 
 ## Deepgram Latency log
 
