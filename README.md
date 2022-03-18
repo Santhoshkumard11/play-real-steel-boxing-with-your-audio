@@ -1,13 +1,15 @@
-# Play Real Steel Boxing with your voice 🔊🔊
+# Play Real Steel Boxing with your voice 🔊🔊 - Real-time speech transcription with Deepgram
 
-Totally inspired by **Real Steel** and curiosity to build things.
+Totally inspired by **Real Steel Movie** and curiosity to build things.
 
-Have you ever wondered how the voice recognition in the Noisy Boy from Real Steel movie works. For people who are new to Real Steel and haven't watched that movie yet. Watch at least the trainer and continue here.
-I was wondering if I could do the same with Deepgram's real-time speech to text api. The result of two day hustle and surprise!! surprise!! It just worked.
+Have you ever wondered how the voice recognition in the **Noisy Boy** from **Real Steel movie** works. For people who are new to Real Steel and haven't watched that movie yet. Watch at least the trainer and continue here.
+I was wondering if I could do the same with **Deepgram's real-time speech to text API**. 
 
-### [Link to read the dev blog post](https://dev.to/sandy_codes_py/play-real-steel-boxing-with-your-voice-atom-the-peoples-champion-e8h)
+#### The result of two day hustle and surprise!! surprise!! It just worked. ✨
 
-### [Link to watch the YouTube Video](https://www.youtube.com/watch?v=BxZt7UkQ_-E&ab_channel=LateNightCodewithSanthosh)
+### [Link to read the dev blog post](https://dev.to/sandy_codes_py/play-real-steel-boxing-with-your-voice-atom-the-peoples-champion-e8h) 📑
+
+### [Link to watch the YouTube Video](https://www.youtube.com/watch?v=BxZt7UkQ_-E&ab_channel=LateNightCodewithSanthosh) 🎬
 
 
 <a href="https://www.youtube.com/watch?v=BxZt7UkQ_-E&ab_channel=LateNightCodewithSanthosh">
@@ -30,7 +32,7 @@ Install all the dependencies
 
 
 ## Game on fellows!!
-![Bring it on!!](https://github.com/Santhoshkumard11/play-real-steel-boxing-with-your-audio/blob/4e8cb28f2b181ed5e808009d60ee85ea73a583c2/images/bring_it_on.gif)
+![Bring it on!!](https://github.com/Santhoshkumard11/play-real-steel-boxing-with-your-audio/blob/c1be411d36507c5331827029c079aa21a546d915/images/bring_it_on.gif)
 
 
 ## Architecture Diagram
@@ -39,7 +41,7 @@ Install all the dependencies
 
 ## Deepgram Latency log
 
-#### My Laptop Specs - Tested
+#### My Laptop Specs - Tested 💻💻
 
 - HP Omen 15 (2018)
 
