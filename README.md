@@ -7,7 +7,12 @@ I was wondering if I could do the same with Deepgram's real-time speech to text 
 
 ### [Link to the dev blog post](https://dev.to/sandy_codes_py/play-real-steel-boxing-with-your-voice-atom-the-peoples-champion-e8h)
 
-### [Link to the YouTube Video]()
+### [Link to the YouTube Video](https://www.youtube.com/watch?v=BxZt7UkQ_-E&ab_channel=LateNightCodewithSanthosh)
+
+
+<a href="https://www.youtube.com/watch?v=BxZt7UkQ_-E&ab_channel=LateNightCodewithSanthosh">
+  <img src="https://img.youtube.com/vi/BxZt7UkQ_-E/hqdefault.jpg" alt="video">
+</a>
 
 ## How to setup locally
 
