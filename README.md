@@ -5,14 +5,17 @@ Totally inspired by **Real Steel** and curiosity to build things.
 Have you ever wondered how the voice recognition in the Noisy Boy from Real Steel movie works. For people who are new to Real Steel and haven't watched that movie yet. Watch at least the trainer and continue here.
 I was wondering if I could do the same with Deepgram's real-time speech to text api. The result of two day hustle and surprise!! surprise!! It just worked.
 
-### [Link to the dev blog post](https://dev.to/sandy_codes_py/play-real-steel-boxing-with-your-voice-atom-the-peoples-champion-e8h)
+### [Link to read the dev blog post](https://dev.to/sandy_codes_py/play-real-steel-boxing-with-your-voice-atom-the-peoples-champion-e8h)
 
-### [Link to the YouTube Video](https://www.youtube.com/watch?v=BxZt7UkQ_-E&ab_channel=LateNightCodewithSanthosh)
+### [Link to watch the YouTube Video](https://www.youtube.com/watch?v=BxZt7UkQ_-E&ab_channel=LateNightCodewithSanthosh)
 
 
 <a href="https://www.youtube.com/watch?v=BxZt7UkQ_-E&ab_channel=LateNightCodewithSanthosh">
   <img src="https://img.youtube.com/vi/BxZt7UkQ_-E/hqdefault.jpg" alt="video">
 </a>
+
+
+![Game play gif](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/f4j87bngddl9jaw0cxjd.gif)
 
 ## How to setup locally
 
