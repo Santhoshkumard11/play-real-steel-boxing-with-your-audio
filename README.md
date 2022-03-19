@@ -21,14 +21,25 @@ I was wondering if I could do the same with **Deepgram's real-time speech to tex
 
 ## How to setup locally
 
-Create a new virtual environment
+1) Create a new virtual environment
 
-`py -m venv venv`
+    `py -m venv venv`
 
 
-Install all the dependencies
+2) Install all the dependencies
 
-`pip install -r requirements.txt`
+    `pip install -r requirements.txt`
+
+3) Change the controls and key mappings in the utils file according to the game (leave it as is for Real Steel Boxing)
+
+4) Launch the Flask App
+
+     `py main.py`
+     
+5) Refresh the browser to make sure the Websocket is connected to the Flask App
+
+6) Launch the game and have fun! 🎮
+
 
 
 ## Game on fellows!!
